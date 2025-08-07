@@ -17,6 +17,19 @@
   }
 }
 
+/* Estilos para enlaces dentro del contenido de los artículos */
+.prose a,
+.prose-xl a {
+  color: #3b82f6; /* Un azul de Tailwind (blue-500) */
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+.prose a:hover,
+.prose-xl a:hover {
+  color: #facc15; /* Un amarillo de Tailwind (yellow-400) */
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
