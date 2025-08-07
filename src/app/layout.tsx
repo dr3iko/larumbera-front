@@ -52,6 +52,22 @@ async function getMenuItems(): Promise<WPMenuItem[]> {
 export const metadata: Metadata = {
   title: 'La Rumbera XYZ - Tan Latina Como Tú',
   description: 'La emisora que te pone a gozar.',
+  openGraph: {
+    title: 'La Rumbera XYZ - Tan Latina Como Tú',
+    description: 'La emisora que te pone a gozar.',
+    url: 'https://larumbera.xyz',
+    siteName: 'La Rumbera XYZ',
+    images: [
+      {
+        url: 'https://larumbera.xyz/Redes_Sociales.webp',
+        width: 1200,
+        height: 630,
+        alt: 'Logo La Rumbera XYZ',
+      },
+    ],
+    locale: 'es_ES',
+    type: 'website',
+  },
 }
 
 export default async function RootLayout({
