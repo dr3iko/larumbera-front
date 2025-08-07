@@ -8,6 +8,7 @@ import Navigation from '@/components/Navigation' // Importamos el nuevo componen
 import Link from 'next/link'
 import { WPMenuItem, WPMenu } from '@/types'
 import { fetchRestAPI } from '@/lib/api'
+import SocialMediaIcons from '@/components/SocialMediaIcons';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -138,6 +139,21 @@ export default async function RootLayout({
 
         <AudioPlayer />
         
+        <footer className="bg-white shadow-inner mt-8">
+          <div className="container mx-auto px-6 py-4 text-center">
+            <SocialMediaIcons 
+              socialLinks={[
+                { name: 'Facebook', url: 'https://www.facebook.com/profile.php?id=61577829737435' },
+                { name: 'Instagram', url: 'https://instagram.com/larumbera.xyz' },
+                { name: 'Twitter', url: 'https://x.com/larumberaxyz' },
+                { name: 'TikTok', url: 'https://tiktok.com/@larumberaxyz' },
+                { name: 'WhatsApp', url: 'https://wa.me/573001234567' }, // Reemplaza con tu número
+              ]}
+            />
+            <p className="text-slate-600 text-sm">&copy; {new Date().getFullYear()} La Rumbera XYZ. Todos los derechos reservados.</p>
+          </div>
+        </footer>
+
         {/* El script de Centova se carga al final para no bloquear la página */}
         <Script 
           src="https://play10.tikast.com:2199/system/streaminfo.js"
