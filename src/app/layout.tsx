@@ -18,7 +18,31 @@ async function getMenuItems(): Promise<WPMenuItem[]> {
     if (!menuData || !menuData.items) {
       throw new Error('La ubicación del menú "primary" no tiene un menú asignado o el endpoint no devolvió items.');
     }
-    return menuData.items;
+
+    const wordpressBaseUrl = process.env.NEXT_PUBLIC_WORDPRESS_API_URL ? process.env.NEXT_PUBLIC_WORDPRESS_API_URL.replace('/graphql', '') : 'https://silpabon.com/back';
+
+    const processedMenuItems = menuData.items.map(item => {
+      let processedUrl = item.url;
+
+      // Replace WordPress base URL with empty string for relative paths
+      if (processedUrl.startsWith(wordpressBaseUrl)) {
+        processedUrl = processedUrl.replace(wordpressBaseUrl, '');
+      }
+
+      // Ensure it starts with a / if it's not empty
+      if (processedUrl === '') {
+        processedUrl = '/';
+      } else if (!processedUrl.startsWith('/')) {
+        processedUrl = '/' + processedUrl;
+      }
+
+      return {
+        ...item,
+        url: processedUrl
+      };
+    });
+
+    return processedMenuItems;
   } catch (error) {
     console.error("Error fetching menu:", error);
     return []; // Devuelve un menú vacío si hay un error.
