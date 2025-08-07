@@ -7,22 +7,13 @@ import AudioPlayer from '@/components/AudioPlayer' // Usamos @ para importar des
 import Navigation from '@/components/Navigation' // Importamos el nuevo componente
 import Link from 'next/link'
 import { WPMenuItem, WPMenu } from '@/types'
+import { fetchRestAPI } from '@/lib/api'
 
 const inter = Inter({ subsets: ['latin'] })
 
 async function getMenuItems(): Promise<WPMenuItem[]> {
   try {
-    // Usamos nuestro endpoint personalizado y eficiente definido en functions.php.
-    // Es la forma más robusta: pide el menú por su ubicación en el tema, no por su nombre.
-    // El tema Twenty Twenty usa 'primary' para su menú principal.
-    const apiUrl = `${process.env.NEXT_PUBLIC_WP_API_URL || 'https://larumbera.xyz/back'}/wp-json/larumbera/v1/menu/primary`;
-    const res = await fetch(apiUrl, {
-      next: { revalidate: 3600 } // Actualiza el menú cada hora.
-    });
-
-    if (!res.ok) throw new Error('Fallo al obtener el menú desde WordPress');
-
-    const menuData: WPMenu = await res.json();
+    const menuData: WPMenu = await fetchRestAPI(`/wp-json/larumbera/v1/menu/primary`);
     // Si la ubicación no tiene un menú asignado, menuData puede no tener `items`.
     if (!menuData || !menuData.items) {
       throw new Error('La ubicación del menú "primary" no tiene un menú asignado o el endpoint no devolvió items.');

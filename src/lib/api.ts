@@ -34,6 +34,35 @@ export async function fetchAPI(query: string, { variables }: { variables?: any }
   return json.data;
 }
 
+export async function fetchRestAPI(path: string, { method = 'GET', headers = {}, body = null, revalidate = 3600 }: { method?: string, headers?: HeadersInit, body?: any, revalidate?: number } = {}) {
+  const REST_API_BASE_URL = process.env.NEXT_PUBLIC_WORDPRESS_API_URL ? process.env.NEXT_PUBLIC_WORDPRESS_API_URL.replace('/graphql', '') : 'https://silpabon.com/back';
+  const url = `${REST_API_BASE_URL}${path}`;
+
+  const config: RequestInit = {
+    method,
+    headers: {
+      'Content-Type': 'application/json',
+      ...headers,
+    },
+    next: {
+      revalidate,
+    },
+  };
+
+  if (body) {
+    config.body = JSON.stringify(body);
+  }
+
+  const res = await fetch(url, config);
+
+  if (!res.ok) {
+    const errorText = await res.text();
+    throw new Error(`Failed to fetch REST API from ${url}: ${res.statusText} - ${errorText}`);
+  }
+
+  return res.json();
+}
+
 export async function getPageBySlug(slug: string) {
   const data = await fetchAPI(`
     query GetPageBySlug($id: ID!) {
