@@ -74,6 +74,21 @@ export async function getPageBySlug(slug: string) {
             sourceUrl
           }
         }
+        seo {
+          title
+          metaDesc
+          opengraphTitle
+          opengraphDescription
+          opengraphImage {
+            mediaItemUrl
+          }
+          twitterTitle
+          twitterDescription
+          twitterImage {
+            mediaItemUrl
+          }
+          canonical
+        }
       }
     }
   `, {
@@ -117,6 +132,21 @@ export async function getPostBySlug(slug: string) {
           node {
             sourceUrl
           }
+        }
+        seo {
+          title
+          metaDesc
+          opengraphTitle
+          opengraphDescription
+          opengraphImage {
+            mediaItemUrl
+          }
+          twitterTitle
+          twitterDescription
+          twitterImage {
+            mediaItemUrl
+          }
+          canonical
         }
       }
     }

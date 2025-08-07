@@ -1,6 +1,50 @@
 import { notFound } from 'next/navigation';
 import { getPageBySlug } from '@/lib/api';
 import Image from 'next/image';
+import type { Metadata } from 'next';
+
+export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
+  const page = await getPageBySlug(params.slug);
+
+  if (!page) {
+    return {};
+  }
+
+  const seo = page.seo;
+
+  return {
+    title: seo?.title || page.title,
+    description: seo?.metaDesc,
+    alternates: {
+      canonical: seo?.canonical,
+    },
+    openGraph: {
+      title: seo?.opengraphTitle || seo?.title || page.title,
+      description: seo?.opengraphDescription || seo?.metaDesc,
+      url: seo?.canonical || `https://larumbera.xyz/${params.slug}`,
+      images: seo?.opengraphImage?.mediaItemUrl ? [
+        {
+          url: seo.opengraphImage.mediaItemUrl,
+          width: 1200,
+          height: 630,
+          alt: seo.opengraphTitle || seo.title || page.title,
+        },
+      ] : [],
+      type: 'article',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: seo?.twitterTitle || seo?.title || page.title,
+      description: seo?.twitterDescription || seo?.metaDesc,
+      images: seo?.twitterImage?.mediaItemUrl ? [
+        {
+          url: seo.twitterImage.mediaItemUrl,
+          alt: seo.twitterTitle || seo.title || page.title,
+        },
+      ] : [],
+    },
+  };
+}
 
 // 2. El componente de la página dinámica
 export default async function Page({ params }: { params: { slug: string } }) {

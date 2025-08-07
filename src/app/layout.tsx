@@ -8,7 +8,6 @@ import Navigation from '@/components/Navigation' // Importamos el nuevo componen
 import Link from 'next/link'
 import { WPMenuItem, WPMenu } from '@/types'
 import { fetchRestAPI } from '@/lib/api'
-import SocialMediaIcons from '@/components/SocialMediaIcons';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -107,7 +106,7 @@ export default async function RootLayout({
                 <Navigation menuItems={menuItems} socialLinks={[
                   { name: 'Facebook', url: 'https://www.facebook.com/profile.php?id=61577829737435' },
                   { name: 'Instagram', url: 'https://www.instagram.com/larumbera.xyz' },
-                  { name: 'Twitter', url: 'https://x.com/larumberaxyz' },
+                  { name: 'X', url: 'https://x.com/larumberaxyz' },
                   { name: 'TikTok', url: 'https://www.tiktok.com/@larumberaxyz' },
                   { name: 'WhatsApp', url: 'https://wa.me/573001234567' }, // Reemplaza con tu número
                 ]} />

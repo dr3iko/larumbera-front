@@ -1,5 +1,6 @@
 import React from 'react';
-import { FaFacebookF, FaInstagram, FaTwitter, FaYoutube, FaTiktok, FaWhatsapp } from 'react-icons/fa';
+import { FaFacebookF, FaInstagram, FaYoutube, FaTiktok, FaWhatsapp } from 'react-icons/fa';
+import { FaXTwitter } from 'react-icons/fa6';
 import Link from 'next/link';
 
 export interface SocialLink {
@@ -18,7 +19,8 @@ const getIcon = (name: string) => {
     case 'instagram':
       return <FaInstagram />;
     case 'twitter':
-      return <FaTwitter />;
+    case 'x':
+      return <FaXTwitter />;
     case 'youtube':
       return <FaYoutube />;
     case 'tiktok':
