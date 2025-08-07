@@ -2,7 +2,7 @@ import React from 'react';
 import { FaFacebookF, FaInstagram, FaTwitter, FaYoutube, FaTiktok, FaWhatsapp } from 'react-icons/fa';
 import Link from 'next/link';
 
-interface SocialLink {
+export interface SocialLink {
   name: string;
   url: string;
 }
