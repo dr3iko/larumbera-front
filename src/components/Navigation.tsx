@@ -5,9 +5,11 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { WPMenuItem } from '@/types';
 import { FaBars, FaTimes } from 'react-icons/fa';
+import SocialMediaIcons, { SocialLink } from './SocialMediaIcons';
 
 interface NavigationProps {
   menuItems: WPMenuItem[];
+  socialLinks: SocialLink[];
 }
 
 /**
@@ -43,7 +45,7 @@ const getRelativeUrl = (url: string): string => {
 };
 
 
-const Navigation = ({ menuItems }: NavigationProps) => {
+const Navigation = ({ menuItems, socialLinks }: NavigationProps) => {
   const [isOpen, setIsOpen] = useState(false);
   const pathname = usePathname();
 
@@ -66,7 +68,7 @@ const Navigation = ({ menuItems }: NavigationProps) => {
       document.body.style.overflow = 'hidden';
     } else {
       document.body.style.overflow = 'unset';
-    }
+    };
     return () => {
       document.body.style.overflow = 'unset';
     };
@@ -85,6 +87,7 @@ const Navigation = ({ menuItems }: NavigationProps) => {
             {item.title}
           </Link>
         ))}
+        <SocialMediaIcons socialLinks={socialLinks} />
       </div>
 
       {/* Botón de hamburguesa para móvil: solo visible en pantallas pequeñas (lg:hidden) */}
@@ -111,6 +114,9 @@ const Navigation = ({ menuItems }: NavigationProps) => {
               {item.title}
             </Link>
           ))}
+          <div className="mt-8">
+            <SocialMediaIcons socialLinks={socialLinks} />
+          </div>
         </nav>
       </div>
     </>

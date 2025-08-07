@@ -104,7 +104,13 @@ export default async function RootLayout({
                         />
                     </Link>
                 </div>
-                <Navigation menuItems={menuItems} />
+                <Navigation menuItems={menuItems} socialLinks={[
+                  { name: 'Facebook', url: 'https://www.facebook.com/profile.php?id=61577829737435' },
+                  { name: 'Instagram', url: 'https://www.instagram.com/larumbera.xyz' },
+                  { name: 'Twitter', url: 'https://x.com/larumberaxyz' },
+                  { name: 'TikTok', url: 'https://www.tiktok.com/@larumberaxyz' },
+                  { name: 'WhatsApp', url: 'https://wa.me/573001234567' }, // Reemplaza con tu número
+                ]} />
             </nav>
         </header>
 
@@ -134,21 +140,6 @@ export default async function RootLayout({
             </main>
         </div>
         
-        <footer className="bg-white shadow-inner mt-8">
-          <div className="container mx-auto px-6 py-4 text-center">
-            <SocialMediaIcons 
-              socialLinks={[
-                { name: 'Facebook', url: 'https://www.facebook.com/profile.php?id=61577829737435' },
-                { name: 'Instagram', url: 'https://instagram.com/larumbera.xyz' },
-                { name: 'X', url: 'https://x.com/larumberaxyz' },
-                { name: 'TikTok', url: 'https://tiktok.com/@larumberaxyz' },
-                { name: 'WhatsApp', url: 'https://wa.me/573001234567' }, // Reemplaza con tu número
-              ]}
-            />
-            <p className="text-slate-600 text-sm">&copy; {new Date().getFullYear()} La Rumbera XYZ. Todos los derechos reservados.</p>
-          </div>
-        </footer>
-
         {/* Un div vacío para que el reproductor fijo no oculte el contenido del final de la página */}
         <div className="h-[var(--player-height)]" /> 
 
