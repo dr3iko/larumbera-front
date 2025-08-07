@@ -38,6 +38,8 @@ export async function fetchRestAPI(path: string, { method = 'GET', headers = {},
   const REST_API_BASE_URL = process.env.NEXT_PUBLIC_WORDPRESS_API_URL ? process.env.NEXT_PUBLIC_WORDPRESS_API_URL.replace('/graphql', '') : 'https://silpabon.com/back';
   const url = `${REST_API_BASE_URL}${path}`;
 
+  console.log(`Fetching REST API from base: ${REST_API_BASE_URL}, full URL: ${url}`);
+
   const config: RequestInit = {
     method,
     headers: {
