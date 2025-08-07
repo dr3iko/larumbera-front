@@ -52,11 +52,6 @@ async function getMenuItems(): Promise<WPMenuItem[]> {
 export const metadata: Metadata = {
   title: 'La Rumbera XYZ - Tan Latina Como Tú',
   description: 'La emisora que te pone a gozar.',
-  icons: {
-    icon: '/favicon.webp',
-    shortcut: '/favicon.webp',
-    apple: '/favicon.webp',
-  },
 }
 
 export default async function RootLayout({
