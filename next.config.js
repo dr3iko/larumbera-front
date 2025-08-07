@@ -16,7 +16,7 @@ const nextConfig = {
       },
       {
         protocol: 'https',
-        hostname: 'larumbera.xyz',
+        hostname: 'silpabon.com',
         pathname: '/back/wp-content/uploads/**',
       },
       {
