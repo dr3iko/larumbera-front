@@ -134,18 +134,13 @@ export default async function RootLayout({
             </main>
         </div>
         
-        {/* Un div vacío para que el reproductor fijo no oculte el contenido del final de la página */}
-        <div className="h-[var(--player-height)]" /> 
-
-        <AudioPlayer />
-        
         <footer className="bg-white shadow-inner mt-8">
           <div className="container mx-auto px-6 py-4 text-center">
             <SocialMediaIcons 
               socialLinks={[
                 { name: 'Facebook', url: 'https://www.facebook.com/profile.php?id=61577829737435' },
                 { name: 'Instagram', url: 'https://instagram.com/larumbera.xyz' },
-                { name: 'Twitter', url: 'https://x.com/larumberaxyz' },
+                { name: 'X', url: 'https://x.com/larumberaxyz' },
                 { name: 'TikTok', url: 'https://tiktok.com/@larumberaxyz' },
                 { name: 'WhatsApp', url: 'https://wa.me/573001234567' }, // Reemplaza con tu número
               ]}
@@ -154,6 +149,11 @@ export default async function RootLayout({
           </div>
         </footer>
 
+        {/* Un div vacío para que el reproductor fijo no oculte el contenido del final de la página */}
+        <div className="h-[var(--player-height)]" /> 
+
+        <AudioPlayer />
+        
         {/* El script de Centova se carga al final para no bloquear la página */}
         <Script 
           src="https://play10.tikast.com:2199/system/streaminfo.js"
