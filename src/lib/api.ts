@@ -1,4 +1,4 @@
-const API_URL = process.env.NEXT_PUBLIC_WORDPRESS_API_URL;
+const API_URL = process.env.NEXT_PUBLIC_WORDPRESS_API_URL || 'https://silpabon.com/back/graphql';
 const WP_USER = process.env.WP_USER;
 const WP_PASSWORD = process.env.WP_PASSWORD;
 
@@ -6,11 +6,8 @@ export async function fetchAPI(query: string, { variables }: { variables?: any }
   const headers: HeadersInit = { 'Content-Type': 'application/json' };
 
   if (!API_URL) {
-    console.error('Error: The NEXT_PUBLIC_WORDPRESS_API_URL environment variable is not set.');
     throw new Error('The NEXT_PUBLIC_WORDPRESS_API_URL environment variable is not set.');
   }
-
-  console.log(`Fetching from API_URL: ${API_URL}`);
 
   if (WP_USER && WP_PASSWORD) {
     const auth = Buffer.from(`${WP_USER}:${WP_PASSWORD}`).toString('base64');
@@ -28,14 +25,6 @@ export async function fetchAPI(query: string, { variables }: { variables?: any }
       revalidate: 60 // Revalida cada 60 segundos (1 minuto)
     }
   });
-
-  console.log(`API Response Status: ${res.status} ${res.statusText}`);
-
-  if (!res.ok) {
-    const errorText = await res.text();
-    console.error(`API Error Response: ${errorText}`);
-    throw new Error(`Failed to fetch API: ${res.statusText} - ${errorText}`);
-  }
 
   const json = await res.json();
   if (json.errors) {
