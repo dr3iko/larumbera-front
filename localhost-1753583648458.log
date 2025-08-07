@@ -1,0 +1,1345 @@
+main-app.js?v=1753583603786:1836 Download the React DevTools for a better development experience: https://reactjs.org/link/react-devtools
+InfinitePostList.tsx:15 InfinitePostList Props: {
+  "initialPosts": [
+    {
+      "node": {
+        "title": "Cómo la danza une a las comunidades y culturas",
+        "excerpt": "<p>Este párrafo sirve como una introducción a tu publicación de blog. Comienza discutiendo el tema principal o asunto que planeas abordar, asegurándote de captar el interés del lector desde la primera frase. Proporciona una visión general que destaque por qué este tema es importante y cómo puede aportar valor. Utiliza este espacio para establecer el [&hellip;]</p>\n",
+        "slug": "como-la-danza-une-a-las-comunidades-y-culturas",
+        "featuredImage": {
+          "node": {
+            "sourceUrl": "https://larumbera.xyz/back/wp-content/uploads/2025/07/featured-image-7.jpg"
+          }
+        }
+      }
+    },
+    {
+      "node": {
+        "title": "El poder del entretenimiento como herramienta cultural",
+        "excerpt": "<p>Este párrafo sirve como una introducción a tu publicación de blog. Comienza discutiendo el tema principal o asunto que planeas abordar, asegurándote de captar el interés del lector desde la primera frase. Proporciona una visión general que destaque por qué este tema es importante y cómo puede aportar valor. Utiliza este espacio para establecer el [&hellip;]</p>\n",
+        "slug": "el-poder-del-entretenimiento-como-herramienta-cultural",
+        "featuredImage": {
+          "node": {
+            "sourceUrl": "https://larumbera.xyz/back/wp-content/uploads/2025/07/featured-image-6.jpg"
+          }
+        }
+      }
+    },
+    {
+      "node": {
+        "title": "Tips para mejorar tus habilidades de baile",
+        "excerpt": "<p>Este párrafo sirve como una introducción a tu publicación de blog. Comienza discutiendo el tema principal o asunto que planeas abordar, asegurándote de captar el interés del lector desde la primera frase. Proporciona una visión general que destaque por qué este tema es importante y cómo puede aportar valor. Utiliza este espacio para establecer el [&hellip;]</p>\n",
+        "slug": "tips-para-mejorar-tus-habilidades-de-baile",
+        "featuredImage": {
+          "node": {
+            "sourceUrl": "https://larumbera.xyz/back/wp-content/uploads/2025/07/featured-image-5.jpg"
+          }
+        }
+      }
+    },
+    {
+      "node": {
+        "title": "Descubre los géneros musicales más populares",
+        "excerpt": "<p>Este párrafo sirve como una introducción a tu publicación de blog. Comienza discutiendo el tema principal o asunto que planeas abordar, asegurándote de captar el interés del lector desde la primera frase. Proporciona una visión general que destaque por qué este tema es importante y cómo puede aportar valor. Utiliza este espacio para establecer el [&hellip;]</p>\n",
+        "slug": "descubre-los-generos-musicales-mas-populares",
+        "featuredImage": {
+          "node": {
+            "sourceUrl": "https://larumbera.xyz/back/wp-content/uploads/2025/07/featured-image-4.jpg"
+          }
+        }
+      }
+    },
+    {
+      "node": {
+        "title": "Historias de artistas que inspiran en La Rumbera",
+        "excerpt": "<p>Este párrafo sirve como una introducción a tu publicación de blog. Comienza discutiendo el tema principal o asunto que planeas abordar, asegurándote de captar el interés del lector desde la primera frase. Proporciona una visión general que destaque por qué este tema es importante y cómo puede aportar valor. Utiliza este espacio para establecer el [&hellip;]</p>\n",
+        "slug": "historias-de-artistas-que-inspiran-en-la-rumbera",
+        "featuredImage": {
+          "node": {
+            "sourceUrl": "https://larumbera.xyz/back/wp-content/uploads/2025/07/featured-image-3.jpg"
+          }
+        }
+      }
+    },
+    {
+      "node": {
+        "title": "El impacto de la música en nuestras emociones",
+        "excerpt": "<p>Este párrafo sirve como una introducción a tu publicación de blog. Comienza discutiendo el tema principal o asunto que planeas abordar, asegurándote de captar el interés del lector desde la primera frase. Proporciona una visión general que destaque por qué este tema es importante y cómo puede aportar valor. Utiliza este espacio para establecer el [&hellip;]</p>\n",
+        "slug": "el-impacto-de-la-musica-en-nuestras-emociones",
+        "featuredImage": {
+          "node": {
+            "sourceUrl": "https://larumbera.xyz/back/wp-content/uploads/2025/07/featured-image-2.jpg"
+          }
+        }
+      }
+    }
+  ],
+  "initialCursor": "YXJyYXljb25uZWN0aW9uOjI5",
+  "initialHasNextPage": true
+}
+InfinitePostList.tsx:15 InfinitePostList Props: {
+  "initialPosts": [
+    {
+      "node": {
+        "title": "Cómo la danza une a las comunidades y culturas",
+        "excerpt": "<p>Este párrafo sirve como una introducción a tu publicación de blog. Comienza discutiendo el tema principal o asunto que planeas abordar, asegurándote de captar el interés del lector desde la primera frase. Proporciona una visión general que destaque por qué este tema es importante y cómo puede aportar valor. Utiliza este espacio para establecer el [&hellip;]</p>\n",
+        "slug": "como-la-danza-une-a-las-comunidades-y-culturas",
+        "featuredImage": {
+          "node": {
+            "sourceUrl": "https://larumbera.xyz/back/wp-content/uploads/2025/07/featured-image-7.jpg"
+          }
+        }
+      }
+    },
+    {
+      "node": {
+        "title": "El poder del entretenimiento como herramienta cultural",
+        "excerpt": "<p>Este párrafo sirve como una introducción a tu publicación de blog. Comienza discutiendo el tema principal o asunto que planeas abordar, asegurándote de captar el interés del lector desde la primera frase. Proporciona una visión general que destaque por qué este tema es importante y cómo puede aportar valor. Utiliza este espacio para establecer el [&hellip;]</p>\n",
+        "slug": "el-poder-del-entretenimiento-como-herramienta-cultural",
+        "featuredImage": {
+          "node": {
+            "sourceUrl": "https://larumbera.xyz/back/wp-content/uploads/2025/07/featured-image-6.jpg"
+          }
+        }
+      }
+    },
+    {
+      "node": {
+        "title": "Tips para mejorar tus habilidades de baile",
+        "excerpt": "<p>Este párrafo sirve como una introducción a tu publicación de blog. Comienza discutiendo el tema principal o asunto que planeas abordar, asegurándote de captar el interés del lector desde la primera frase. Proporciona una visión general que destaque por qué este tema es importante y cómo puede aportar valor. Utiliza este espacio para establecer el [&hellip;]</p>\n",
+        "slug": "tips-para-mejorar-tus-habilidades-de-baile",
+        "featuredImage": {
+          "node": {
+            "sourceUrl": "https://larumbera.xyz/back/wp-content/uploads/2025/07/featured-image-5.jpg"
+          }
+        }
+      }
+    },
+    {
+      "node": {
+        "title": "Descubre los géneros musicales más populares",
+        "excerpt": "<p>Este párrafo sirve como una introducción a tu publicación de blog. Comienza discutiendo el tema principal o asunto que planeas abordar, asegurándote de captar el interés del lector desde la primera frase. Proporciona una visión general que destaque por qué este tema es importante y cómo puede aportar valor. Utiliza este espacio para establecer el [&hellip;]</p>\n",
+        "slug": "descubre-los-generos-musicales-mas-populares",
+        "featuredImage": {
+          "node": {
+            "sourceUrl": "https://larumbera.xyz/back/wp-content/uploads/2025/07/featured-image-4.jpg"
+          }
+        }
+      }
+    },
+    {
+      "node": {
+        "title": "Historias de artistas que inspiran en La Rumbera",
+        "excerpt": "<p>Este párrafo sirve como una introducción a tu publicación de blog. Comienza discutiendo el tema principal o asunto que planeas abordar, asegurándote de captar el interés del lector desde la primera frase. Proporciona una visión general que destaque por qué este tema es importante y cómo puede aportar valor. Utiliza este espacio para establecer el [&hellip;]</p>\n",
+        "slug": "historias-de-artistas-que-inspiran-en-la-rumbera",
+        "featuredImage": {
+          "node": {
+            "sourceUrl": "https://larumbera.xyz/back/wp-content/uploads/2025/07/featured-image-3.jpg"
+          }
+        }
+      }
+    },
+    {
+      "node": {
+        "title": "El impacto de la música en nuestras emociones",
+        "excerpt": "<p>Este párrafo sirve como una introducción a tu publicación de blog. Comienza discutiendo el tema principal o asunto que planeas abordar, asegurándote de captar el interés del lector desde la primera frase. Proporciona una visión general que destaque por qué este tema es importante y cómo puede aportar valor. Utiliza este espacio para establecer el [&hellip;]</p>\n",
+        "slug": "el-impacto-de-la-musica-en-nuestras-emociones",
+        "featuredImage": {
+          "node": {
+            "sourceUrl": "https://larumbera.xyz/back/wp-content/uploads/2025/07/featured-image-2.jpg"
+          }
+        }
+      }
+    }
+  ],
+  "initialCursor": "YXJyYXljb25uZWN0aW9uOjI5",
+  "initialHasNextPage": true
+}
+warn-once.js:16 Image with src "https://larumbera.xyz/back/wp-content/uploads/2025/07/featured-image-7.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+warnOnce @ warn-once.js:16
+eval @ image-component.js:106
+Promise.then
+handleLoading @ image-component.js:37
+eval @ image-component.js:183
+commitAttachRef @ react-dom.development.js:21677
+safelyAttachRef @ react-dom.development.js:20803
+commitLayoutEffectOnFiber @ react-dom.development.js:21498
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21488
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21488
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21488
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21418
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21418
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21418
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21418
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21418
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21488
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21488
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21488
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21488
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21418
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21418
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21418
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21418
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21437
+commitLayoutEffects @ react-dom.development.js:22912
+commitRootImpl @ react-dom.development.js:26226
+commitRoot @ react-dom.development.js:26077
+commitRootWhenReady @ react-dom.development.js:24749
+finishConcurrentRender @ react-dom.development.js:24714
+performConcurrentWorkOnRoot @ react-dom.development.js:24559
+workLoop @ scheduler.development.js:256
+flushWork @ scheduler.development.js:225
+performWorkUntilDeadline @ scheduler.development.js:534
+warn-once.js:16 Image with src "https://larumbera.xyz/back/wp-content/uploads/2025/07/featured-image-6.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+warnOnce @ warn-once.js:16
+eval @ image-component.js:106
+Promise.then
+handleLoading @ image-component.js:37
+eval @ image-component.js:183
+commitAttachRef @ react-dom.development.js:21677
+safelyAttachRef @ react-dom.development.js:20803
+commitLayoutEffectOnFiber @ react-dom.development.js:21498
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21488
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21488
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21488
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21418
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21418
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21418
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21418
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21418
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21488
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21488
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21488
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21488
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21418
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21418
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21418
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21418
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21437
+commitLayoutEffects @ react-dom.development.js:22912
+commitRootImpl @ react-dom.development.js:26226
+commitRoot @ react-dom.development.js:26077
+commitRootWhenReady @ react-dom.development.js:24749
+finishConcurrentRender @ react-dom.development.js:24714
+performConcurrentWorkOnRoot @ react-dom.development.js:24559
+workLoop @ scheduler.development.js:256
+flushWork @ scheduler.development.js:225
+performWorkUntilDeadline @ scheduler.development.js:534
+warn-once.js:16 Image with src "https://larumbera.xyz/back/wp-content/uploads/2025/07/featured-image-5.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+warnOnce @ warn-once.js:16
+eval @ image-component.js:106
+Promise.then
+handleLoading @ image-component.js:37
+eval @ image-component.js:183
+commitAttachRef @ react-dom.development.js:21677
+safelyAttachRef @ react-dom.development.js:20803
+commitLayoutEffectOnFiber @ react-dom.development.js:21498
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21488
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21488
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21488
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21418
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21418
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21418
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21418
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21418
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21488
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21488
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21488
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21488
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21418
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21418
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21418
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21418
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21437
+commitLayoutEffects @ react-dom.development.js:22912
+commitRootImpl @ react-dom.development.js:26226
+commitRoot @ react-dom.development.js:26077
+commitRootWhenReady @ react-dom.development.js:24749
+finishConcurrentRender @ react-dom.development.js:24714
+performConcurrentWorkOnRoot @ react-dom.development.js:24559
+workLoop @ scheduler.development.js:256
+flushWork @ scheduler.development.js:225
+performWorkUntilDeadline @ scheduler.development.js:534
+warn-once.js:16 Image with src "https://larumbera.xyz/back/wp-content/uploads/2025/07/featured-image-4.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+warnOnce @ warn-once.js:16
+eval @ image-component.js:106
+Promise.then
+handleLoading @ image-component.js:37
+eval @ image-component.js:183
+commitAttachRef @ react-dom.development.js:21677
+safelyAttachRef @ react-dom.development.js:20803
+commitLayoutEffectOnFiber @ react-dom.development.js:21498
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21488
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21488
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21488
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21418
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21418
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21418
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21418
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21418
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21488
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21488
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21488
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21488
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21418
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21418
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21418
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21418
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21437
+commitLayoutEffects @ react-dom.development.js:22912
+commitRootImpl @ react-dom.development.js:26226
+commitRoot @ react-dom.development.js:26077
+commitRootWhenReady @ react-dom.development.js:24749
+finishConcurrentRender @ react-dom.development.js:24714
+performConcurrentWorkOnRoot @ react-dom.development.js:24559
+workLoop @ scheduler.development.js:256
+flushWork @ scheduler.development.js:225
+performWorkUntilDeadline @ scheduler.development.js:534
+warn-once.js:16 Image with src "https://larumbera.xyz/back/wp-content/uploads/2025/07/featured-image-3.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+warnOnce @ warn-once.js:16
+eval @ image-component.js:106
+Promise.then
+handleLoading @ image-component.js:37
+eval @ image-component.js:183
+commitAttachRef @ react-dom.development.js:21677
+safelyAttachRef @ react-dom.development.js:20803
+commitLayoutEffectOnFiber @ react-dom.development.js:21498
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21488
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21488
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21488
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21418
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21418
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21418
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21418
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21418
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21488
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21488
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21488
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21488
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21418
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21418
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21418
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21418
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21437
+commitLayoutEffects @ react-dom.development.js:22912
+commitRootImpl @ react-dom.development.js:26226
+commitRoot @ react-dom.development.js:26077
+commitRootWhenReady @ react-dom.development.js:24749
+finishConcurrentRender @ react-dom.development.js:24714
+performConcurrentWorkOnRoot @ react-dom.development.js:24559
+workLoop @ scheduler.development.js:256
+flushWork @ scheduler.development.js:225
+performWorkUntilDeadline @ scheduler.development.js:534
+warn-once.js:16 Image with src "https://larumbera.xyz/back/wp-content/uploads/2025/07/featured-image-2.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+warnOnce @ warn-once.js:16
+eval @ image-component.js:106
+Promise.then
+handleLoading @ image-component.js:37
+eval @ image-component.js:183
+commitAttachRef @ react-dom.development.js:21677
+safelyAttachRef @ react-dom.development.js:20803
+commitLayoutEffectOnFiber @ react-dom.development.js:21498
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21488
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21488
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21488
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21418
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21418
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21418
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21418
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21418
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21488
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21488
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21488
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21488
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21418
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21418
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21418
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21418
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21407
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21577
+recursivelyTraverseLayoutEffects @ react-dom.development.js:22926
+commitLayoutEffectOnFiber @ react-dom.development.js:21437
+commitLayoutEffects @ react-dom.development.js:22912
+commitRootImpl @ react-dom.development.js:26226
+commitRoot @ react-dom.development.js:26077
+commitRootWhenReady @ react-dom.development.js:24749
+finishConcurrentRender @ react-dom.development.js:24714
+performConcurrentWorkOnRoot @ react-dom.development.js:24559
+workLoop @ scheduler.development.js:256
+flushWork @ scheduler.development.js:225
+performWorkUntilDeadline @ scheduler.development.js:534
+InfinitePostList.tsx:15 InfinitePostList Props: {
+  "initialPosts": [
+    {
+      "node": {
+        "title": "Cómo la danza une a las comunidades y culturas",
+        "excerpt": "<p>Este párrafo sirve como una introducción a tu publicación de blog. Comienza discutiendo el tema principal o asunto que planeas abordar, asegurándote de captar el interés del lector desde la primera frase. Proporciona una visión general que destaque por qué este tema es importante y cómo puede aportar valor. Utiliza este espacio para establecer el [&hellip;]</p>\n",
+        "slug": "como-la-danza-une-a-las-comunidades-y-culturas",
+        "featuredImage": {
+          "node": {
+            "sourceUrl": "https://larumbera.xyz/back/wp-content/uploads/2025/07/featured-image-7.jpg"
+          }
+        }
+      }
+    },
+    {
+      "node": {
+        "title": "El poder del entretenimiento como herramienta cultural",
+        "excerpt": "<p>Este párrafo sirve como una introducción a tu publicación de blog. Comienza discutiendo el tema principal o asunto que planeas abordar, asegurándote de captar el interés del lector desde la primera frase. Proporciona una visión general que destaque por qué este tema es importante y cómo puede aportar valor. Utiliza este espacio para establecer el [&hellip;]</p>\n",
+        "slug": "el-poder-del-entretenimiento-como-herramienta-cultural",
+        "featuredImage": {
+          "node": {
+            "sourceUrl": "https://larumbera.xyz/back/wp-content/uploads/2025/07/featured-image-6.jpg"
+          }
+        }
+      }
+    },
+    {
+      "node": {
+        "title": "Tips para mejorar tus habilidades de baile",
+        "excerpt": "<p>Este párrafo sirve como una introducción a tu publicación de blog. Comienza discutiendo el tema principal o asunto que planeas abordar, asegurándote de captar el interés del lector desde la primera frase. Proporciona una visión general que destaque por qué este tema es importante y cómo puede aportar valor. Utiliza este espacio para establecer el [&hellip;]</p>\n",
+        "slug": "tips-para-mejorar-tus-habilidades-de-baile",
+        "featuredImage": {
+          "node": {
+            "sourceUrl": "https://larumbera.xyz/back/wp-content/uploads/2025/07/featured-image-5.jpg"
+          }
+        }
+      }
+    },
+    {
+      "node": {
+        "title": "Descubre los géneros musicales más populares",
+        "excerpt": "<p>Este párrafo sirve como una introducción a tu publicación de blog. Comienza discutiendo el tema principal o asunto que planeas abordar, asegurándote de captar el interés del lector desde la primera frase. Proporciona una visión general que destaque por qué este tema es importante y cómo puede aportar valor. Utiliza este espacio para establecer el [&hellip;]</p>\n",
+        "slug": "descubre-los-generos-musicales-mas-populares",
+        "featuredImage": {
+          "node": {
+            "sourceUrl": "https://larumbera.xyz/back/wp-content/uploads/2025/07/featured-image-4.jpg"
+          }
+        }
+      }
+    },
+    {
+      "node": {
+        "title": "Historias de artistas que inspiran en La Rumbera",
+        "excerpt": "<p>Este párrafo sirve como una introducción a tu publicación de blog. Comienza discutiendo el tema principal o asunto que planeas abordar, asegurándote de captar el interés del lector desde la primera frase. Proporciona una visión general que destaque por qué este tema es importante y cómo puede aportar valor. Utiliza este espacio para establecer el [&hellip;]</p>\n",
+        "slug": "historias-de-artistas-que-inspiran-en-la-rumbera",
+        "featuredImage": {
+          "node": {
+            "sourceUrl": "https://larumbera.xyz/back/wp-content/uploads/2025/07/featured-image-3.jpg"
+          }
+        }
+      }
+    },
+    {
+      "node": {
+        "title": "El impacto de la música en nuestras emociones",
+        "excerpt": "<p>Este párrafo sirve como una introducción a tu publicación de blog. Comienza discutiendo el tema principal o asunto que planeas abordar, asegurándote de captar el interés del lector desde la primera frase. Proporciona una visión general que destaque por qué este tema es importante y cómo puede aportar valor. Utiliza este espacio para establecer el [&hellip;]</p>\n",
+        "slug": "el-impacto-de-la-musica-en-nuestras-emociones",
+        "featuredImage": {
+          "node": {
+            "sourceUrl": "https://larumbera.xyz/back/wp-content/uploads/2025/07/featured-image-2.jpg"
+          }
+        }
+      }
+    }
+  ],
+  "initialCursor": "YXJyYXljb25uZWN0aW9uOjI5",
+  "initialHasNextPage": true
+}
+InfinitePostList.tsx:15 InfinitePostList Props: {
+  "initialPosts": [
+    {
+      "node": {
+        "title": "Cómo la danza une a las comunidades y culturas",
+        "excerpt": "<p>Este párrafo sirve como una introducción a tu publicación de blog. Comienza discutiendo el tema principal o asunto que planeas abordar, asegurándote de captar el interés del lector desde la primera frase. Proporciona una visión general que destaque por qué este tema es importante y cómo puede aportar valor. Utiliza este espacio para establecer el [&hellip;]</p>\n",
+        "slug": "como-la-danza-une-a-las-comunidades-y-culturas",
+        "featuredImage": {
+          "node": {
+            "sourceUrl": "https://larumbera.xyz/back/wp-content/uploads/2025/07/featured-image-7.jpg"
+          }
+        }
+      }
+    },
+    {
+      "node": {
+        "title": "El poder del entretenimiento como herramienta cultural",
+        "excerpt": "<p>Este párrafo sirve como una introducción a tu publicación de blog. Comienza discutiendo el tema principal o asunto que planeas abordar, asegurándote de captar el interés del lector desde la primera frase. Proporciona una visión general que destaque por qué este tema es importante y cómo puede aportar valor. Utiliza este espacio para establecer el [&hellip;]</p>\n",
+        "slug": "el-poder-del-entretenimiento-como-herramienta-cultural",
+        "featuredImage": {
+          "node": {
+            "sourceUrl": "https://larumbera.xyz/back/wp-content/uploads/2025/07/featured-image-6.jpg"
+          }
+        }
+      }
+    },
+    {
+      "node": {
+        "title": "Tips para mejorar tus habilidades de baile",
+        "excerpt": "<p>Este párrafo sirve como una introducción a tu publicación de blog. Comienza discutiendo el tema principal o asunto que planeas abordar, asegurándote de captar el interés del lector desde la primera frase. Proporciona una visión general que destaque por qué este tema es importante y cómo puede aportar valor. Utiliza este espacio para establecer el [&hellip;]</p>\n",
+        "slug": "tips-para-mejorar-tus-habilidades-de-baile",
+        "featuredImage": {
+          "node": {
+            "sourceUrl": "https://larumbera.xyz/back/wp-content/uploads/2025/07/featured-image-5.jpg"
+          }
+        }
+      }
+    },
+    {
+      "node": {
+        "title": "Descubre los géneros musicales más populares",
+        "excerpt": "<p>Este párrafo sirve como una introducción a tu publicación de blog. Comienza discutiendo el tema principal o asunto que planeas abordar, asegurándote de captar el interés del lector desde la primera frase. Proporciona una visión general que destaque por qué este tema es importante y cómo puede aportar valor. Utiliza este espacio para establecer el [&hellip;]</p>\n",
+        "slug": "descubre-los-generos-musicales-mas-populares",
+        "featuredImage": {
+          "node": {
+            "sourceUrl": "https://larumbera.xyz/back/wp-content/uploads/2025/07/featured-image-4.jpg"
+          }
+        }
+      }
+    },
+    {
+      "node": {
+        "title": "Historias de artistas que inspiran en La Rumbera",
+        "excerpt": "<p>Este párrafo sirve como una introducción a tu publicación de blog. Comienza discutiendo el tema principal o asunto que planeas abordar, asegurándote de captar el interés del lector desde la primera frase. Proporciona una visión general que destaque por qué este tema es importante y cómo puede aportar valor. Utiliza este espacio para establecer el [&hellip;]</p>\n",
+        "slug": "historias-de-artistas-que-inspiran-en-la-rumbera",
+        "featuredImage": {
+          "node": {
+            "sourceUrl": "https://larumbera.xyz/back/wp-content/uploads/2025/07/featured-image-3.jpg"
+          }
+        }
+      }
+    },
+    {
+      "node": {
+        "title": "El impacto de la música en nuestras emociones",
+        "excerpt": "<p>Este párrafo sirve como una introducción a tu publicación de blog. Comienza discutiendo el tema principal o asunto que planeas abordar, asegurándote de captar el interés del lector desde la primera frase. Proporciona una visión general que destaque por qué este tema es importante y cómo puede aportar valor. Utiliza este espacio para establecer el [&hellip;]</p>\n",
+        "slug": "el-impacto-de-la-musica-en-nuestras-emociones",
+        "featuredImage": {
+          "node": {
+            "sourceUrl": "https://larumbera.xyz/back/wp-content/uploads/2025/07/featured-image-2.jpg"
+          }
+        }
+      }
+    }
+  ],
+  "initialCursor": "YXJyYXljb25uZWN0aW9uOjI5",
+  "initialHasNextPage": true
+}
+InfinitePostList.tsx:15 InfinitePostList Props: {
+  "initialPosts": [
+    {
+      "node": {
+        "title": "Cómo la danza une a las comunidades y culturas",
+        "excerpt": "<p>Este párrafo sirve como una introducción a tu publicación de blog. Comienza discutiendo el tema principal o asunto que planeas abordar, asegurándote de captar el interés del lector desde la primera frase. Proporciona una visión general que destaque por qué este tema es importante y cómo puede aportar valor. Utiliza este espacio para establecer el [&hellip;]</p>\n",
+        "slug": "como-la-danza-une-a-las-comunidades-y-culturas",
+        "featuredImage": {
+          "node": {
+            "sourceUrl": "https://larumbera.xyz/back/wp-content/uploads/2025/07/featured-image-7.jpg"
+          }
+        }
+      }
+    },
+    {
+      "node": {
+        "title": "El poder del entretenimiento como herramienta cultural",
+        "excerpt": "<p>Este párrafo sirve como una introducción a tu publicación de blog. Comienza discutiendo el tema principal o asunto que planeas abordar, asegurándote de captar el interés del lector desde la primera frase. Proporciona una visión general que destaque por qué este tema es importante y cómo puede aportar valor. Utiliza este espacio para establecer el [&hellip;]</p>\n",
+        "slug": "el-poder-del-entretenimiento-como-herramienta-cultural",
+        "featuredImage": {
+          "node": {
+            "sourceUrl": "https://larumbera.xyz/back/wp-content/uploads/2025/07/featured-image-6.jpg"
+          }
+        }
+      }
+    },
+    {
+      "node": {
+        "title": "Tips para mejorar tus habilidades de baile",
+        "excerpt": "<p>Este párrafo sirve como una introducción a tu publicación de blog. Comienza discutiendo el tema principal o asunto que planeas abordar, asegurándote de captar el interés del lector desde la primera frase. Proporciona una visión general que destaque por qué este tema es importante y cómo puede aportar valor. Utiliza este espacio para establecer el [&hellip;]</p>\n",
+        "slug": "tips-para-mejorar-tus-habilidades-de-baile",
+        "featuredImage": {
+          "node": {
+            "sourceUrl": "https://larumbera.xyz/back/wp-content/uploads/2025/07/featured-image-5.jpg"
+          }
+        }
+      }
+    },
+    {
+      "node": {
+        "title": "Descubre los géneros musicales más populares",
+        "excerpt": "<p>Este párrafo sirve como una introducción a tu publicación de blog. Comienza discutiendo el tema principal o asunto que planeas abordar, asegurándote de captar el interés del lector desde la primera frase. Proporciona una visión general que destaque por qué este tema es importante y cómo puede aportar valor. Utiliza este espacio para establecer el [&hellip;]</p>\n",
+        "slug": "descubre-los-generos-musicales-mas-populares",
+        "featuredImage": {
+          "node": {
+            "sourceUrl": "https://larumbera.xyz/back/wp-content/uploads/2025/07/featured-image-4.jpg"
+          }
+        }
+      }
+    },
+    {
+      "node": {
+        "title": "Historias de artistas que inspiran en La Rumbera",
+        "excerpt": "<p>Este párrafo sirve como una introducción a tu publicación de blog. Comienza discutiendo el tema principal o asunto que planeas abordar, asegurándote de captar el interés del lector desde la primera frase. Proporciona una visión general que destaque por qué este tema es importante y cómo puede aportar valor. Utiliza este espacio para establecer el [&hellip;]</p>\n",
+        "slug": "historias-de-artistas-que-inspiran-en-la-rumbera",
+        "featuredImage": {
+          "node": {
+            "sourceUrl": "https://larumbera.xyz/back/wp-content/uploads/2025/07/featured-image-3.jpg"
+          }
+        }
+      }
+    },
+    {
+      "node": {
+        "title": "El impacto de la música en nuestras emociones",
+        "excerpt": "<p>Este párrafo sirve como una introducción a tu publicación de blog. Comienza discutiendo el tema principal o asunto que planeas abordar, asegurándote de captar el interés del lector desde la primera frase. Proporciona una visión general que destaque por qué este tema es importante y cómo puede aportar valor. Utiliza este espacio para establecer el [&hellip;]</p>\n",
+        "slug": "el-impacto-de-la-musica-en-nuestras-emociones",
+        "featuredImage": {
+          "node": {
+            "sourceUrl": "https://larumbera.xyz/back/wp-content/uploads/2025/07/featured-image-2.jpg"
+          }
+        }
+      }
+    }
+  ],
+  "initialCursor": "YXJyYXljb25uZWN0aW9uOjI5",
+  "initialHasNextPage": true
+}
+InfinitePostList.tsx:15 InfinitePostList Props: {
+  "initialPosts": [
+    {
+      "node": {
+        "title": "Cómo la danza une a las comunidades y culturas",
+        "excerpt": "<p>Este párrafo sirve como una introducción a tu publicación de blog. Comienza discutiendo el tema principal o asunto que planeas abordar, asegurándote de captar el interés del lector desde la primera frase. Proporciona una visión general que destaque por qué este tema es importante y cómo puede aportar valor. Utiliza este espacio para establecer el [&hellip;]</p>\n",
+        "slug": "como-la-danza-une-a-las-comunidades-y-culturas",
+        "featuredImage": {
+          "node": {
+            "sourceUrl": "https://larumbera.xyz/back/wp-content/uploads/2025/07/featured-image-7.jpg"
+          }
+        }
+      }
+    },
+    {
+      "node": {
+        "title": "El poder del entretenimiento como herramienta cultural",
+        "excerpt": "<p>Este párrafo sirve como una introducción a tu publicación de blog. Comienza discutiendo el tema principal o asunto que planeas abordar, asegurándote de captar el interés del lector desde la primera frase. Proporciona una visión general que destaque por qué este tema es importante y cómo puede aportar valor. Utiliza este espacio para establecer el [&hellip;]</p>\n",
+        "slug": "el-poder-del-entretenimiento-como-herramienta-cultural",
+        "featuredImage": {
+          "node": {
+            "sourceUrl": "https://larumbera.xyz/back/wp-content/uploads/2025/07/featured-image-6.jpg"
+          }
+        }
+      }
+    },
+    {
+      "node": {
+        "title": "Tips para mejorar tus habilidades de baile",
+        "excerpt": "<p>Este párrafo sirve como una introducción a tu publicación de blog. Comienza discutiendo el tema principal o asunto que planeas abordar, asegurándote de captar el interés del lector desde la primera frase. Proporciona una visión general que destaque por qué este tema es importante y cómo puede aportar valor. Utiliza este espacio para establecer el [&hellip;]</p>\n",
+        "slug": "tips-para-mejorar-tus-habilidades-de-baile",
+        "featuredImage": {
+          "node": {
+            "sourceUrl": "https://larumbera.xyz/back/wp-content/uploads/2025/07/featured-image-5.jpg"
+          }
+        }
+      }
+    },
+    {
+      "node": {
+        "title": "Descubre los géneros musicales más populares",
+        "excerpt": "<p>Este párrafo sirve como una introducción a tu publicación de blog. Comienza discutiendo el tema principal o asunto que planeas abordar, asegurándote de captar el interés del lector desde la primera frase. Proporciona una visión general que destaque por qué este tema es importante y cómo puede aportar valor. Utiliza este espacio para establecer el [&hellip;]</p>\n",
+        "slug": "descubre-los-generos-musicales-mas-populares",
+        "featuredImage": {
+          "node": {
+            "sourceUrl": "https://larumbera.xyz/back/wp-content/uploads/2025/07/featured-image-4.jpg"
+          }
+        }
+      }
+    },
+    {
+      "node": {
+        "title": "Historias de artistas que inspiran en La Rumbera",
+        "excerpt": "<p>Este párrafo sirve como una introducción a tu publicación de blog. Comienza discutiendo el tema principal o asunto que planeas abordar, asegurándote de captar el interés del lector desde la primera frase. Proporciona una visión general que destaque por qué este tema es importante y cómo puede aportar valor. Utiliza este espacio para establecer el [&hellip;]</p>\n",
+        "slug": "historias-de-artistas-que-inspiran-en-la-rumbera",
+        "featuredImage": {
+          "node": {
+            "sourceUrl": "https://larumbera.xyz/back/wp-content/uploads/2025/07/featured-image-3.jpg"
+          }
+        }
+      }
+    },
+    {
+      "node": {
+        "title": "El impacto de la música en nuestras emociones",
+        "excerpt": "<p>Este párrafo sirve como una introducción a tu publicación de blog. Comienza discutiendo el tema principal o asunto que planeas abordar, asegurándote de captar el interés del lector desde la primera frase. Proporciona una visión general que destaque por qué este tema es importante y cómo puede aportar valor. Utiliza este espacio para establecer el [&hellip;]</p>\n",
+        "slug": "el-impacto-de-la-musica-en-nuestras-emociones",
+        "featuredImage": {
+          "node": {
+            "sourceUrl": "https://larumbera.xyz/back/wp-content/uploads/2025/07/featured-image-2.jpg"
+          }
+        }
+      }
+    }
+  ],
+  "initialCursor": "YXJyYXljb25uZWN0aW9uOjI5",
+  "initialHasNextPage": true
+}

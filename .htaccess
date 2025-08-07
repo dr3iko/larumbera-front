@@ -1,0 +1,7 @@
+# cPanel-generated Node.js App
+# DO NOT EDIT. IF YOU NEED TO CUSTOMIZE THIS FILE, CREATE A COPY AND EDIT THAT.
+RewriteEngine On
+RewriteRule ^$ http://127.0.0.1:PASSENGER_PORT/ [P,L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ http://127.0.0.1:PASSENGER_PORT/$1 [P,L]
