@@ -22,7 +22,7 @@ export async function fetchAPI(query: string, { variables }: { variables?: any }
       variables,
     }),
     next: {
-      revalidate: 60 // Revalida cada 60 segundos (1 minuto)
+      revalidate: 3600 // Revalida cada 3600 segundos (1 hora)
     }
   });
 
