@@ -4,6 +4,12 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
+        hostname: 'emitimosnoticias.com', // <-- AÑADIDO
+        port: '',
+        pathname: '/back/wp-content/uploads/**',
+      },
+      {
+        protocol: 'https',
         hostname: 'larumbera.xyz',
         port: '',
         pathname: '/back/wp-content/uploads/**',
@@ -16,7 +22,7 @@ const nextConfig = {
       },
       {
         protocol: 'https',
-        hostname: 'is1-ssl.mzstatic.com', // <-- EL NUEVO DOMINIO
+        hostname: 'is1-ssl.mzstatic.com',
         port: '',
         pathname: '/**',
       },
