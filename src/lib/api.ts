@@ -1,4 +1,4 @@
-const API_URL = process.env.NEXT_PUBLIC_WORDPRESS_API_URL || 'https://silpabon.com/back/graphql';
+const API_URL = process.env.NEXT_PUBLIC_WORDPRESS_API_URL || 'https://emitimosnoticias.com/back/graphql';
 const WP_USER = process.env.WP_USER;
 const WP_PASSWORD = process.env.WP_PASSWORD;
 
@@ -35,7 +35,7 @@ export async function fetchAPI(query: string, { variables }: { variables?: any }
 }
 
 export async function fetchRestAPI(path: string, { method = 'GET', headers = {}, body = null, revalidate = 3600 }: { method?: string, headers?: HeadersInit, body?: any, revalidate?: number } = {}) {
-  const REST_API_BASE_URL = process.env.NEXT_PUBLIC_WORDPRESS_API_URL ? process.env.NEXT_PUBLIC_WORDPRESS_API_URL.replace('/graphql', '') : 'https://silpabon.com/back';
+  const REST_API_BASE_URL = process.env.NEXT_PUBLIC_WORDPRESS_API_URL ? process.env.NEXT_PUBLIC_WORDPRESS_API_URL.replace('/graphql', '') : 'https://emitimosnoticias.com/back';
   const url = `${REST_API_BASE_URL}${path}`;
 
   const config: RequestInit = {
