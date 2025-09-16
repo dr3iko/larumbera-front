@@ -16,7 +16,7 @@ const nextConfig = {
       },
       {
         protocol: 'https',
-        hostname: 'silpabon.com',
+        hostname: 'emitimosnoticias.com',
         pathname: '/back/wp-content/uploads/**',
       },
       {

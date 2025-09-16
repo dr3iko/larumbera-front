@@ -13,8 +13,8 @@ const processSeoUrl = (url: string | undefined | null, slug: string, isBlog: boo
   }
 
   // Replace the WordPress backend URL with the frontend URL
-  if (finalUrl.includes('https://silpabon.com/back')) {
-    finalUrl = finalUrl.replace('https://silpabon.com/back', baseUrl);
+  if (finalUrl.includes('https://emitimosnoticias.com/back')) {
+    finalUrl = finalUrl.replace('https://emitimosnoticias.com/back', baseUrl);
   }
 
   // Ensure it starts with the base URL if it's a relative path from WordPress

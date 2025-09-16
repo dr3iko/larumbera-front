@@ -19,7 +19,7 @@ async function getMenuItems(): Promise<WPMenuItem[]> {
       throw new Error('La ubicación del menú "primary" no tiene un menú asignado o el endpoint no devolvió items.');
     }
 
-    const wordpressBaseUrl = process.env.NEXT_PUBLIC_WORDPRESS_API_URL ? process.env.NEXT_PUBLIC_WORDPRESS_API_URL.replace('/graphql', '') : 'https://silpabon.com/back';
+    const wordpressBaseUrl = process.env.NEXT_PUBLIC_WORDPRESS_API_URL ? process.env.NEXT_PUBLIC_WORDPRESS_API_URL.replace('/graphql', '') : 'https://emitimosnoticias.com/back';
 
     const processedMenuItems = menuData.items.map(item => {
       let processedUrl = item.url;
